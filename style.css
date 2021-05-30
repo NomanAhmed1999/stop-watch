@@ -1,0 +1,83 @@
+
+
+
+
+
+body{
+    background: linear-gradient(to right, yellow, rgb(30, 231, 30));
+}
+
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+.container{
+    -webkit-border-radius: 40px;
+    background-color: #5028ef;
+    border: 10px groove rgb(129, 120, 182);
+    width: 38vw;
+    height: 13vh;
+    margin: 5% 0% 0% 26%;
+    padding: 3% 0% 5% 6%;
+}
+.num{
+    display: inline-block;
+    padding: 0% 0% 0% 0%;
+    background-color: black;
+    border: 5px solid rebeccapurple;
+    font-size: 400%;
+    margin: 0% 4% 0% 0%;
+    color: aliceblue;
+    width: 16%;
+    height: 76px;
+}
+.start-btn, .stop-btn {
+    margin: 7% 2% 0% 0%;
+    width: 27%;
+    height: 62px;
+    font-size: 140%;
+    background-color: darkorange;
+    border: 10px groove rgb(129, 120, 182);
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.start-btn:hover, .stop-btn:hover{
+    background-color: rgb(223, 141, 41);
+}
+.start-btn:focus, .stop-btn:focus{
+    background-color: rgb(170, 110, 36);
+    border: 10px groove rgb(66, 65, 71);
+    height: 55px;
+}
+
+
+
+
+@media only screen and (max-width : 600px) {
+ 
+    .container{
+        width: 70vw;
+        height: 12vh;
+        margin: 10% 0% 0% 8%;
+        padding: 5% 0% 10% 0%;
+    }
+
+    .num{
+        height: 50px;
+        font-size: 255%;
+        margin: 5% 0% 0% 6%;
+        width: 14%;
+    }
+
+    .start-btn, .stop-btn{
+        margin: 8% 0% 0% 5%;
+        width: 26%;
+        height: 50px;
+        font-size: 115%;
+    }
+
+}
